@@ -1,0 +1,12 @@
+.listAnimal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.listAnimalItem {
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 70px;
+  padding: 10px;
+}

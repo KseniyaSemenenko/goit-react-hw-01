@@ -1,0 +1,63 @@
+.containerTaskOne {
+  border: solid 5px rgba(0, 0, 0, 0.658);
+  border-radius: 3%;
+  margin: 24px auto;
+  max-width: 300px;
+}
+.avatarMainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+  background-color: rgb(224, 221, 221);
+}
+.avatar {
+  background-color: rgba(0, 0, 0, 0.658);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+.avatarName {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.avatarText {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: gray;
+  margin-bottom: 10px;
+}
+.listActive {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(156, 156, 156);
+}
+.listActiveItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding: 20px 18px;
+  border-top: solid 3px rgb(51, 49, 49);
+  width: 100%;
+  border-right: solid 3px rgb(51, 49, 49);
+}
+.listActiveItem:last-child {
+  border-right: none;
+}
+.activeName {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: auto;
+  padding-right: auto;
+}
+.activeNumbers {
+  font-size: 20px;
+  font-weight: 700;
+}
